@@ -375,10 +375,18 @@ a{
 	padding-top: 160px;
 	padding-bottom: 40px;
 }
+.herotop{
+	padding-top: 160px;
+	padding-bottom: 40px;
+}
 @media (max-width: 768px){
 	.hero{
-		/*padding-top: 80px;
-		padding-bottom: 80px;*/
+		padding-top: 80px;
+		padding-bottom: 20px;
+	}
+	.herotop{
+		padding-top: 160px;
+		padding-bottom: 20px;
 	}
 }
 .hero.hero-bg-white{
@@ -388,41 +396,9 @@ a{
 	background-color: #ece8d9;
 }
 
-/* jumbotron */
-.jumbotron{
-	padding-top: 224px;
-	padding-bottom: 160px;
-	border: 1px solid #000;
-	background-image: url('../images/bg/bg001.jpg');
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	/*text-align: center;*/
-	/*min-height: 80vh;*/
-	/* view height */
-
+.owl-item{
+    width: 100%;
 }
-@media (max-width: 768px){
-	.jumbotron{
-		padding-top: 144px;
-		padding-bottom: 80px;
-	}
-}
-.jumbotron .logo-image{
-	width: 320px;
-	height: 320px;
-	margin: 0 auto;
-	background-image: url('../images/common/logo-w.png');
-	background-position: center;
-	background-size: contain;
-}
-@media (max-width: 768px){
-	.jumbotron .logo-image{
-		width: 200px;
-		height: 200px;
-	}
-}
-
 /* mask */
 .mask-dark{
 	position: absolute;
